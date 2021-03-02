@@ -1,0 +1,1 @@
+La base donnée est celle contenant les informations de chaque pokemon. Il faut la charger dans phpmyadmin afin de pouvoir utiliser l'application a 100%.

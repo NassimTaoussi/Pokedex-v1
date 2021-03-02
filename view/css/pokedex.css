@@ -1,0 +1,98 @@
+/* Bloc englobant les cards */
+
+body {
+	background-color: #F0F8FF;
+	width: 100%;
+}
+
+#blocPokedex {
+	width: 53%;
+	height: auto;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+#blocPokedex a:link {
+	text-decoration: none;
+}
+
+#blocPokedex a:hover {
+	opacity: 0.8;
+}
+
+/* Card */
+
+.pokemonCard {
+	width: 320px;
+	height: 330px;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+/* Div contenant l'image de la card */
+.pokemonImg {
+	width: 100%;
+	height: 60%;
+	margin: auto;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+/* Image du pokemon */
+
+.imagePokemon {
+	background-size: cover;
+}
+
+.info {
+	background-color: #DC143C;
+	opacity: 0.8;
+	width: 100%;
+	height: 40%;
+}
+
+.mainInfo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+.namePokemon {
+	font-family: Pompiere, serif;
+	font-size: 27px;
+	margin-top: 6px;
+	margin-left: 3px;
+	color: black;
+}
+
+.numberPokemon {
+	font-family: Pompiere, serif;
+	font-size: 27px;
+	margin-top: 6px;
+	color: black;
+}
+
+.secondInfo {
+	margin-top: 10px;
+	text-align: center;
+	font-family: Pompiere;
+	font-size: 24px;
+}
+
+.typePokemon {
+	font-family: Pompiere, serif;
+	font-size: 27px;
+	margin-top: 6px;
+	color: black;
+}
