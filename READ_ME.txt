@@ -1,0 +1,2 @@
+La base de donnée est celle contenant les informations de chaque pokemon. 
+Il faut la charger dans phpmyadmin en créant une base de donnée du nom de "pokedex" afin de pouvoir utiliser l'application a 100%.
