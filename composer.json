@@ -1,0 +1,17 @@
+{
+    "require": {
+        "symfony/http-foundation": "^6.0"
+    },
+
+    "require-dev": {
+        "symfony/var-dumper": "^5.4",
+        "symfony/error-handler": "^5.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "NTaoussi\\Src\\": "src/",
+            "NTaoussi\\Lib\\": "lib/"
+        }
+    }
+}
